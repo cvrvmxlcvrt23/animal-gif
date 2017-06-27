@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Animal Buttons</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Bootswatch Styling for Improving the Aesthetics -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+
+  <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   
+    <link href='https://fonts.googleapis.com/css?family=Lobster'>
+  
+ <style>
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/0d/58/57/0d5857f75992b458b377d4b2ce180713.jpg")
+
+}
+</style>
+
+</head>
+<body>
+<!--main body conatainer-->
+  <div class="container">
+    <div class="jumbotron" style="background-color: grey ; color: black;"><h1 class="text-center"><strong><i class="fa fa-paw" aria-hidden="true"></i>  Animal Gif Buttons</h1></strong></h1>
+    </div>
+  </div>
+<div class="container">
+  <div class="panel-heading" style="background-color:grey; color:black;">
+    <h3 class="panel-title" style="background-color:grey; color:black;"><strong><i class="fa fa-paw" aria-hidden="true"></i> Animal Buttons</strong></h3>
+      <hr>
+   </form>
+                            <!--animal gif buttons-->
+          <button data-animal="turtle" style="color:black;">turtle</button>
+          <button data-animal="dog" style="color:black;">woof</button>
+          <button data-animal="drifting" style="color:black;">skrtskrt</button>
+          <button data-animal="wolf" style="color:black;">howl</button>
+          <button data-animal="owl" style="color:black;">who</button>
+          <button data-animal="raccoon" style="color:black;">raccoon</button>
+          <button data animal= "dolphin" style="color:black;">Dolphin</button>
+
+<div>
+ <h4>Add an Animal</h4>
+    <form id="gif-form">
+        <label for="gif-input"></label>
+        <input type="text" value="" id="gif-input"><br><br>
+        <!--Creates the submit button-->
+        <input type="submit" name="Button" class="btn btn-success" id="theButton">
+    </form>
+</div>
+        
+                            <!--gifs will appear here-->
+        <div id="gifs-appear-here">
+    </div>
+ </div> 
+ <div class="row">
+    <div class="col-sm-12">
+      
+      <!-- Line Break followed by closing -->
+      <hr>
+
+      <!--footer-->
+        <h5 class="text-center" style="color:black;"><medium> Created by Curtis Ballard 2017<i class="fa fa-paw" aria-hidden="true"> </medium></h5>
+
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="animalbuttons.js"></script>
+
+  </body>
+
+</html>
